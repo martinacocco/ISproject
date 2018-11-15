@@ -40,6 +40,16 @@ $(function(){
     $(".tours-list").click(function(){
         var id = $(this).attr("id");
         var index = parseInt(id.replace("tour-", ""),10);
+
         displayGPX(index);
+
+        $(this).next().slideToggle(300);
+        for(var i = 0; i < gpxFiles.length; i++){
+            if(i != index && $("#tour-" + i + "-Description").is(":visible")){
+                $("#tour-" + i + "-Description").slideToggle(300);
+            }
+        }
+
     });
+
 });
