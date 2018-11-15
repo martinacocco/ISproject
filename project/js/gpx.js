@@ -308,18 +308,18 @@ L.GPX = L.FeatureGroup.extend({
     if (name.length > 0) {
       this._info.name = name[0].textContent;
     }
-    var desc = xml.getElementsByTagName('desc');
-    if (desc.length > 0) {
-      this._info.desc = desc[0].textContent;
-    }
-    var author = xml.getElementsByTagName('author');
-    if (author.length > 0) {
-      this._info.author = author[0].textContent;
-    }
-    var copyright = xml.getElementsByTagName('copyright');
-    if (copyright.length > 0) {
-      this._info.copyright = copyright[0].textContent;
-    }
+    // var desc = xml.getElementsByTagName('desc');
+    // if (desc.length > 0) {
+    //   this._info.desc = desc[0].textContent;
+    // }
+    // var author = xml.getElementsByTagName('author');
+    // if (author.length > 0) {
+    //   this._info.author = author[0].textContent;
+    // }
+    // var copyright = xml.getElementsByTagName('copyright');
+    // if (copyright.length > 0) {
+    //   this._info.copyright = copyright[0].textContent;
+    // }
 
     for (t = 0; t < tags.length; t++) {
       el = xml.getElementsByTagName(tags[t][0]);
