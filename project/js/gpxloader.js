@@ -13,5 +13,20 @@ function gpxLoader(){
             gpxResult["fail"] = true;
         });
     }
-    return gpxResult;
+    return gpxFiles;
+}
+var mymap;
+function initMap(){
+  mymap = L.map('map').setView([55.86515, -4.25763], 13);
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
+  }).addTo(mymap);
+}
+
+function displayGPX(i){
+  var result = gpxLoader();
+  var url = result[i];
+  new L.GPX(url,{async: true}).on('loaded', function(e) {
+    mymap.fitBounds(e.target.getBounds());
+  }).addTo(mymap);
 }

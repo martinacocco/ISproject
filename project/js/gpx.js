@@ -47,12 +47,12 @@ var _DAY_IN_MILLIS = 24 * _HOUR_IN_MILLIS;
 var _GPX_STYLE_NS = 'http://www.topografix.com/GPX/gpx_style/0/2';
 
 var _DEFAULT_MARKER_OPTS = {
-  startIconUrl: 'pin-icon-start.png',
-  endIconUrl: 'pin-icon-end.png',
-  shadowUrl: 'pin-shadow.png',
+  startIconUrl: 'img/pin-icon-start.png',
+  endIconUrl: 'img/pin-icon-end.png',
+  shadowUrl: 'img/pin-shadow.png',
   wptIcons: [],
   wptIconUrls : {
-    '': 'pin-icon-wpt.png',
+    '': 'img/pin-icon-wpt.png',
   },
   pointMatchers: [],
   iconSize: [33, 50],
