@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #F38241;
+  border: 1px solid #F38241;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -48,16 +48,18 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.6);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.85);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -74,15 +76,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #F38241;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #D57239;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #F38241;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #F38241;
   }
 }
 
@@ -105,7 +107,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -113,6 +115,7 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  color:rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 768px) {
@@ -150,20 +153,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #F38241;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #D57239;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #D57239;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #D57239 !important;
 }
 
 .about-section {
@@ -187,7 +190,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #F38241;
   }
 }
 
@@ -201,7 +204,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #F38241;
     border-width: .25rem;
     width: 30%;
   }
@@ -235,7 +238,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #F38241;
 }
 
 .contact-section .card h4 {
@@ -246,7 +249,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #F38241;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -279,7 +282,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #F38241;
 }
 
 a:focus, a:hover {
@@ -292,11 +295,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #F38241 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #F38241 !important;
 }
 
 footer {
