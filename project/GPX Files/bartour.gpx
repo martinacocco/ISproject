@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="55.8655041" lon="-4.2550565">
+  <ele>36.9</ele>
+  <name>The Flying Duck</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8646099" lon="-4.2610657">
+  <ele>43.4</ele>
+  <name>Flat 0/1</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.866007" lon="-4.2691002">
+  <ele>34.5</ele>
+  <name>Broadcast</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.859474" lon="-4.252232">
+  <ele>23.9</ele>
+  <name>Max's Bar &amp; Grill</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.862932" lon="-4.256341">
+  <ele>37.3</ele>
+  <name>Revolution Renfield Street Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8578852" lon="-4.2422385">
+  <ele>15.4</ele>
+  <name>McChuills</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8659736" lon="-4.2689378">
+  <ele>33.4</ele>
+  <name>Nice N Sleazy</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+</gpx>
