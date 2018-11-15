@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="55.8685891" lon="-4.2906039">
+  <ele>30.6</ele>
+  <name>Kelvingrove Art Gallery and Museum</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8719143" lon="-4.2858711">
+  <ele>35.8</ele>
+  <name>Pearce Lodge</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.87151" lon="-4.2887609">
+  <ele>51.1</ele>
+  <name>University Of Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8726106" lon="-4.2870041">
+  <ele>41.0</ele>
+  <name>Wellington Church of Scotland</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8717859" lon="-4.2888237">
+  <ele>48.3</ele>
+  <name>Hunterian Museum</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8797045" lon="-4.2911777">
+  <ele>38.2</ele>
+  <name>Glasgow Botanic Gardens</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8785601" lon="-4.2925134">
+  <ele>36.0</ele>
+  <name>Grosvenor Terrace</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8789948" lon="-4.2987934">
+  <ele>52.9</ele>
+  <name>Greek Orthodox Church</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+</gpx>
