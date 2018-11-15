@@ -15,14 +15,14 @@
   <name>Provand's Lordship</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
 </wpt>
-<wpt lat="55.8601314" lon="-4.2521811">
-  <ele>25.5</ele>
-  <name>Gallery of Modern Art</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-</wpt>
 <wpt lat="55.8511799" lon="-4.2373644">
   <ele>12.1</ele>
   <name>The People's Palace Museum</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8601314" lon="-4.2521811">
+  <ele>25.5</ele>
+  <name>Gallery of Modern Art</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
 </wpt>
 </gpx>
