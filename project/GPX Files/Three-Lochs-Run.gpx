@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<gpx creator="The Potato King and his Children" version="1.0" xmlns="http://www.topografix.com/GPX/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+	<rte>
+		<name>Three Lochs Run</name>
+		<rtept lat="55.334380624456" lon="-3.4454369544983">
+		<name>Moffat, Dumfries and Galloway DG10 9HN, UK</name>
+		<desc><![CDATA[]]></desc>
+		<sym></sym>
+</rtept><rtept lat="55.495387981366" lon="-3.2040596008301">
+		<name>Scottish Borders TD7 5LG, UK</name>
+		<desc><![CDATA[]]></desc>
+		<sym></sym>
+</rtept><rtept lat="55.505305361595" lon="-3.4318542480469">
+		<name>Tweedsmuir ML12 6QP, UK</name>
+		<desc><![CDATA[]]></desc>
+		<sym></sym>
+</rtept><rtept lat="55.333837506003" lon="-3.4451043605804">
+		<name>Moffat, Dumfries and Galloway DG10 9HN, UK</name>
+		<desc><![CDATA[]]></desc>
+		<sym></sym>
+</rtept>
+	</rte>
+</gpx>
