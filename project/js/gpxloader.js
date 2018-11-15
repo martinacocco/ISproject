@@ -1,11 +1,12 @@
+
+var gpxFiles = ["https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/bartour.gpx",
+"https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/citycentremuseumtour.gpx",
+"https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/glasgowmust.gpx",
+"https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/westendtour.gpx"];
+
+
 function gpxLoader(){
-    var gpxFiles = ["https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/bartour.gpx",
-    "https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/citycentremuseumtour.gpx",
-    "https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/glasgowmust.gpx",
-    "https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/westendtour.gpx"];
-
     var gpxResult = {"fail":false, "results": []};
-
     for(var i = 0; i < gpxFiles.length; i++){
         $.get(gpxFiles[i], function( data ) {
             gpxResult["results"].push(data);
@@ -24,9 +25,8 @@ function initMap(){
 }
 
 function displayGPX(i){
-  var result = gpxLoader();
-  var url = result[i];
-  new L.GPX(url,{async: true}).on('loaded', function(e) {
+  var file = gpxFiles[i];
+  new L.GPX(file,{async: true}).on('loaded', function(e) {
     mymap.fitBounds(e.target.getBounds());
   }).addTo(mymap);
 }
