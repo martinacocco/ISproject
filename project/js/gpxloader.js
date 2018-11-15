@@ -13,6 +13,13 @@ function initMap(){
 }
 
 function displayGPX(i){
+
+    /*mymap.eachLayer(function (layer) {
+        mymap.removeLayer(layer);
+    });
+    mymap.remove();
+    initMap();
+    */
   if (x!=0){
     clearMap();
   }
