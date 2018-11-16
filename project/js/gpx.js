@@ -53,6 +53,8 @@ var _DEFAULT_MARKER_OPTS = {
   wptIcons: [],
   wptIconUrls : {
     '': 'img/pin-icon-wpt.png',
+    'end':'img/pin-icon-end.png',
+    'start':'img/pin-icon-start.png'
   },
   pointMatchers: [],
   iconSize: [33, 50],
@@ -518,36 +520,7 @@ L.GPX = L.FeatureGroup.extend({
     this.fire('addline', { line: l, element: line });
     layers.push(l);
 
-    if (options.marker_options.startIcon || options.marker_options.startIconUrl) {
-      // add start pin
-      var marker = new L.Marker(coords[0], {
-        clickable: options.marker_options.clickable,
-        icon: options.marker_options.startIcon || new L.GPXTrackIcon({iconUrl: options.marker_options.startIconUrl})
-      });
-      this.fire('addpoint', { point: marker, point_type: 'start', element: el[0] });
-      layers.push(marker);
-    }
 
-    if (options.marker_options.endIcon || options.marker_options.endIconUrl) {
-      // add end pin
-      var marker = new L.Marker(coords[coords.length-1], {
-        clickable: options.marker_options.clickable,
-        icon: options.marker_options.endIcon || new L.GPXTrackIcon({iconUrl: options.marker_options.endIconUrl})
-      });
-      this.fire('addpoint', { point: marker, point_type: 'end', element: el[el.length-1] });
-      layers.push(marker);
-    }
-
-    // add named markers
-    for (var i = 0; i < markers.length; i++) {
-      var marker = new L.Marker(markers[i].coords, {
-        clickable: options.marker_options.clickable,
-        title: markers[i].label,
-        icon: markers[i].icon
-      });
-      this.fire('addpoint', { point: marker, point_type: 'label', element: markers[i].element });
-      layers.push(marker);
-    }
 
     return layers;
   },

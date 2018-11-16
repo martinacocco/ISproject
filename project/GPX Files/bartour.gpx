@@ -3,7 +3,7 @@
 <wpt lat="55.8655626" lon="-4.2550362">
   <ele>37.8</ele>
   <name>The Flying Duck</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>start</sym>
 </wpt>
 <wpt lat="55.8647629" lon="-4.2610085">
   <ele>42.9</ele>
