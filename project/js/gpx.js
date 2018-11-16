@@ -520,8 +520,6 @@ L.GPX = L.FeatureGroup.extend({
     this.fire('addline', { line: l, element: line });
     layers.push(l);
 
-
-
     return layers;
   },
 

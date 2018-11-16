@@ -3,7 +3,7 @@
 <wpt lat="55.8725449" lon="-4.2867138">
   <ele>38.7</ele>
   <name>Wellington Church of Scotland</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>start</sym>
 </wpt>
 <wpt lat="55.8718582" lon="-4.2856825">
   <ele>34.7</ele>
@@ -33,7 +33,7 @@
 <wpt lat="55.8796856" lon="-4.2909684">
   <ele>37.5</ele>
   <name>Glasgow Botanic Gardens</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>end</sym>
 </wpt>
 <trk>
   <name>Directions</name>

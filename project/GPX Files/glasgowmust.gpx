@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <wpt lat="55.8662759" lon="-4.272329">
   <name>Sauchiehall Street</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>start</sym>
 </wpt>
 <wpt lat="55.8656183" lon="-4.2651924">
   <name>Centre for Contemporary Arts</name>
@@ -34,7 +34,7 @@
 </wpt>
 <wpt lat="55.8566397" lon="-4.2532884">
   <name>St. Enoch Centre</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>end</sym>
 </wpt>
 <trk>
   <name>Directions</name>

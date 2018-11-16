@@ -3,7 +3,7 @@
 <wpt lat="55.8626075" lon="-4.2364123">
   <ele>38.5</ele>
   <name>St. Mungo Museum Of Religious Life &amp; Art</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>start</sym>
 </wpt>
 <wpt lat="55.862375" lon="-4.2366791">
   <ele>37.0</ele>
@@ -23,7 +23,7 @@
 <wpt lat="55.850985" lon="-4.2371306">
   <ele>13.0</ele>
   <name>The People's Palace Museum</name>
-  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <sym>end</sym>
 </wpt>
 <trk>
   <name>Directions</name>
