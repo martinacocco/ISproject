@@ -6,7 +6,7 @@
 .tours-desc{
     display: none;
     list-style: none;
-    height: 100px;
+    height: auto;
 }
 
 #mainNav {
