@@ -3,38 +3,56 @@
 <wpt lat="55.8662759" lon="-4.272329">
   <name>Sauchiehall Street</name>
   <sym>start</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8656183" lon="-4.2651924">
   <name>Centre for Contemporary Arts</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>1 am</close>
 </wpt>
 <wpt lat="55.8656999" lon="-4.2615735">
   <name>Glasgow Film Theatre</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>11 pm</close>
 </wpt>
 <wpt lat="55.8661011" lon="-4.2571641">
   <name>Royal Conservatoire of Scotland</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>11 pm</close>
 </wpt>
 <wpt lat="55.8611595" lon="-4.2538615">
   <name>Buchanan Street</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8607681" lon="-4.2503089">
   <name>George Square</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8601103" lon="-4.2518511">
   <name>Gallery of Modern Art</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>5 pm</close>
 </wpt>
 <wpt lat="55.8593998" lon="-4.2556053">
   <name>The Lighthouse</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>5 pm</close>
 </wpt>
 <wpt lat="55.8566397" lon="-4.2532884">
   <name>St. Enoch Centre</name>
   <sym>end</sym>
+  <open>9 am</open>
+  <close>7 pm</close>
 </wpt>
 <trk>
   <name>Directions</name>

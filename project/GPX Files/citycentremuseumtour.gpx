@@ -4,26 +4,36 @@
   <ele>38.5</ele>
   <name>St. Mungo Museum Of Religious Life &amp; Art</name>
   <sym>start</sym>
+  <open>8 pm</open>
+  <close>3 am</close>
 </wpt>
 <wpt lat="55.862375" lon="-4.2366791">
   <ele>37.0</ele>
   <name>Provand's Lordship</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>5 pm</close>
 </wpt>
 <wpt lat="55.8607681" lon="-4.2503089">
   <ele>25.0</ele>
   <name>George Square</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8601103" lon="-4.2518511">
   <ele>25.6</ele>
   <name>Gallery of Modern Art</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>5 pm</close>
 </wpt>
 <wpt lat="55.850985" lon="-4.2371306">
   <ele>13.0</ele>
   <name>The People's Palace Museum</name>
   <sym>end</sym>
+  <open>10 am</open>
+  <close>5 pm</close>
 </wpt>
 <trk>
   <name>Directions</name>

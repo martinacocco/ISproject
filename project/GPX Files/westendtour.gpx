@@ -4,36 +4,49 @@
   <ele>38.7</ele>
   <name>Wellington Church of Scotland</name>
   <sym>start</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8718582" lon="-4.2856825">
   <ele>34.7</ele>
   <name>Pearce Lodge</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-</wpt>
+  <open>12 am</open>
+  <close>12 am</close>
 <wpt lat="55.8715086" lon="-4.2887501">
   <ele>51.1</ele>
   <name>University Of Glasgow</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8716977" lon="-4.2888616">
   <ele>49.6</ele>
   <name>Hunterian Museum</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>10 am</open>
+  <close>5 pm</close>
 </wpt>
 <wpt lat="55.8785601" lon="-4.2925134">
   <ele>36.0</ele>
   <name>Grosvenor Terrace</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8791919" lon="-4.2986792">
   <ele>50.8</ele>
   <name>Greek Orthodox Church</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8796856" lon="-4.2909684">
   <ele>37.5</ele>
   <name>Glasgow Botanic Gardens</name>
   <sym>end</sym>
+  <open>12 am</open>
+  <close>12 am</close>
 </wpt>
 <trk>
   <name>Directions</name>

@@ -4,50 +4,50 @@
   <ele>37.8</ele>
   <name>The Flying Duck</name>
   <sym>start</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>11 am</open>
+  <close>3 am</close>
 </wpt>
 <wpt lat="55.8647629" lon="-4.2610085">
   <ele>42.9</ele>
   <name>Flat 0/1</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>8 pm</open>
+  <close>3 am</close>
 </wpt>
 <wpt lat="55.8660889" lon="-4.2690688">
   <ele>34.3</ele>
   <name>Broadcast</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>5 pm</open>
+  <close>3 am</close>
 </wpt>
 <wpt lat="55.8595122" lon="-4.2522177">
   <ele>24.0</ele>
   <name>Max's Bar &amp; Grill</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>12 pm</open>
+  <close>3 am</close>
 </wpt>
 <wpt lat="55.8629126" lon="-4.2561573">
   <ele>36.2</ele>
   <name>Revolution Renfield Street Glasgow</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>12 pm</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8579339" lon="-4.2423998">
   <ele>15.8</ele>
   <name>McChuills</name>
   <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>12 pm</open>
+  <close>12 am</close>
 </wpt>
 <wpt lat="55.8660686" lon="-4.2689013">
   <ele>33.1</ele>
   <name>Nice N Sleazy</name>
   <sym>end</sym>
-  <open>10 am</open>
-  <close>10 pm</close>
+  <open>12 pm</open>
+  <close>3 am</close>
 </wpt>
 <trk>
   <name>Directions</name>
