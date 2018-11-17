@@ -31,6 +31,29 @@ function clearMap() {
   });
 }
 
+function uploadXML() {
+    var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.gpx)$/;
+    //Checks whether the file is a valid xml file
+    if (regex.test($("#xmlFile").val())) {
+        //Checks whether the browser supports HTML5
+        if (typeof (FileReader) != "undefined") {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                var xmlDoc = $.parseXML(e.target.result);
+                console.log(xmlDoc);
+                return xmlDoc;
+            }
+            reader.readAsText($("#xmlFile")[0].files[0]);
+
+        } else {
+            alert("Sorry! Your browser does not support HTML5!");
+        }
+    } else {
+        alert("Please upload a valid XML file!");
+    }
+}
+
+
 // Main Function From where to execute all js code
 $(function(){
     initMap();
@@ -48,6 +71,12 @@ $(function(){
             }
         }
 
+    });
+
+    $('#xmlForm').submit(function (event) {
+        event.preventDefault();
+        var xmlDoc = uploadXML();
+        console.log(xmlDoc);
     });
 
 });
