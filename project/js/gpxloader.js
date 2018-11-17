@@ -56,6 +56,11 @@ function uploadXML() {
 
 function addToSidebar(index, name){
     $("#user-tours").append("<li id=tour-" + index + " class='list-group-item tours-list'>" + name + "</li>");
+    $(".tours-list").click(function(){
+        var id = $(this).attr("id");
+        var index = parseInt(id.replace("tour-", ""),10);
+        displayGPX(index);
+    });
 }
 // Main Function From where to execute all js code
 $(function(){
