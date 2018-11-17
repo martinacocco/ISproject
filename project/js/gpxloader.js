@@ -39,12 +39,8 @@ function uploadXML() {
         if (typeof (FileReader) != "undefined") {
             var reader = new FileReader();
             reader.onload = function (e) {
-                var xmlDoc = e.target.result;
-                clearMap();
-                new L.GPX(xmlDoc,{async: true}).on('loaded', function(e) {
-                  mymap.fitBounds(e.target.getBounds());
-                }).addTo(mymap);
-                return xmlDoc;
+                gpxFiles.push(e.target.result);
+                displayGPX(gpxFiles.length - 1);
             }
             reader.readAsText($("#xmlFile")[0].files[0]);
 
@@ -79,7 +75,6 @@ $(function(){
     $('#xmlForm').submit(function (event) {
         event.preventDefault();
         var xmlDoc = uploadXML();
-        console.log(xmlDoc);
     });
 
 });
