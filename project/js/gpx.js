@@ -363,6 +363,17 @@ L.GPX = L.FeatureGroup.extend({
           symKey = symEl[0].textContent;
         }
 
+        var openEl = el[i].getElementsByTagName('open');
+        var open_time = '';
+        if (openEl.length > 0){
+          open_time = openEl[0].textContent;
+        }
+        var closeEl = el[i].getElementsByTagName('close');
+        var close_time = '';
+        if (closeEl.length > 0){
+          close_time = closeEl[0].textContent;
+        }
+
         /*
          * Add waypoint marker based on the waypoint symbol key.
          *
@@ -393,7 +404,7 @@ L.GPX = L.FeatureGroup.extend({
           title: name,
           icon: symIcon
         });
-        marker.bindPopup("<b>" + name + "</b>" + (desc.length > 0 ? '<br>' + desc : '')).openPopup();
+        marker.bindPopup("<b>" + name + "</b>" + "</br><b>Opening Time: " +open_time + "</b> </br> <b> Closing Time: "+close_time ).openPopup();
         this.fire('addpoint', { point: marker, point_type: 'waypoint', element: el[i] });
         layers.push(marker);
       }

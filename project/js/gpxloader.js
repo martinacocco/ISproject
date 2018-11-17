@@ -4,7 +4,7 @@ var gpxFiles = ["https://raw.githubusercontent.com/martinacocco/ISproject/master
 "https://raw.githubusercontent.com/martinacocco/ISproject/master/project/GPX%20Files/westendtour.gpx"];
 
 var mymap;
-var x = 0;
+
 function initMap(){
   mymap = L.map('map').setView([55.86515, -4.25763], 13);
   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -13,22 +13,13 @@ function initMap(){
 }
 
 function displayGPX(i){
-
-    /*mymap.eachLayer(function (layer) {
-        mymap.removeLayer(layer);
-    });
-    mymap.remove();
-    initMap();
-    */
-  if (x!=0){
-    clearMap();
-  }
+  clearMap();
   var url = gpxFiles[i];
   new L.GPX(url,{async: true}).on('loaded', function(e) {
     mymap.fitBounds(e.target.getBounds());
   }).addTo(mymap);
-  x++;
 }
+
 function clearMap() {
   mymap.eachLayer(function (layer) {
     if(layer instanceof L.Marker) {
