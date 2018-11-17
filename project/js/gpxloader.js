@@ -35,12 +35,14 @@ function uploadXML() {
     var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.gpx)$/;
     //Checks whether the file is a valid xml file
     if (regex.test($("#xmlFile").val())) {
+        var name = $("#xmlFile").val().replace(".gpx","").replace("C:\\fakepath\\", "");
         //Checks whether the browser supports HTML5
         if (typeof (FileReader) != "undefined") {
             var reader = new FileReader();
             reader.onload = function (e) {
                 gpxFiles.push(e.target.result);
                 displayGPX(gpxFiles.length - 1);
+                addToSidebar(gpxFiles.length - 1, name);
             }
             reader.readAsText($("#xmlFile")[0].files[0]);
 
@@ -52,7 +54,9 @@ function uploadXML() {
     }
 }
 
-
+function addToSidebar(index, name){
+    $("#user-tours").append("<li id=tour-" + index + " class='list-group-item tours-list'>" + name + "</li>");
+}
 // Main Function From where to execute all js code
 $(function(){
     initMap();
@@ -62,19 +66,17 @@ $(function(){
         var index = parseInt(id.replace("tour-", ""),10);
 
         displayGPX(index);
-
         $(this).next().slideToggle(300);
         for(var i = 0; i < gpxFiles.length; i++){
             if(i != index && $("#tour-" + i + "-Description").is(":visible")){
                 $("#tour-" + i + "-Description").slideToggle(300);
             }
         }
-
     });
 
     $('#xmlForm').submit(function (event) {
         event.preventDefault();
-        var xmlDoc = uploadXML();
+        uploadXML();
     });
 
 });
