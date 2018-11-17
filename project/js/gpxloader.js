@@ -39,8 +39,11 @@ function uploadXML() {
         if (typeof (FileReader) != "undefined") {
             var reader = new FileReader();
             reader.onload = function (e) {
-                var xmlDoc = $.parseXML(e.target.result);
-                console.log(xmlDoc);
+                var xmlDoc = e.target.result;
+                clearMap();
+                new L.GPX(xmlDoc,{async: true}).on('loaded', function(e) {
+                  mymap.fitBounds(e.target.getBounds());
+                }).addTo(mymap);
                 return xmlDoc;
             }
             reader.readAsText($("#xmlFile")[0].files[0]);
