@@ -5,7 +5,6 @@ var gpxFiles = ["https://raw.githubusercontent.com/martinacocco/ISproject/master
 ];
 
 var mymap;
-
 function initMap() {
     var token ="pk.eyJ1IjoibWNvY2NvIiwiYSI6ImNqbjYwbDI1ZDE0ejEzdnJ1cG15NDJ4cXIifQ.duXi7u04FfnKiBRjlKpSIw"; // replace with your Mapbox API Access token. Create a Mabpox account and find it on https://www.mapbox.com/studio/
 
@@ -25,6 +24,7 @@ function displayGPX(i) {
         async: true
     }).on('loaded', function(e) {
         mymap.fitBounds(e.target.getBounds());
+        $("#tour-info-span").text(Math.trunc(this.get_distance() / 1000));
     }).addTo(mymap);
 }
 

@@ -133,6 +133,20 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
+#tour-info{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
+#tour-info-span{
+    color: orange;
+}
+
 @media (min-width: 768px) {
     .masthead h1 {
         font-size: 4rem;
