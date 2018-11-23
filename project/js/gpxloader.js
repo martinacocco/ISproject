@@ -7,12 +7,6 @@ var gpxFiles = ["https://raw.githubusercontent.com/martinacocco/ISproject/master
 var mymap;
 
 function initMap() {
-
-    //mymap = L.map('map').setView([55.86515, -4.25763], 13);
-    //L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    //    attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
-    //}).addTo(mymap);
-
     var token ="pk.eyJ1IjoibWNvY2NvIiwiYSI6ImNqbjYwbDI1ZDE0ejEzdnJ1cG15NDJ4cXIifQ.duXi7u04FfnKiBRjlKpSIw"; // replace with your Mapbox API Access token. Create a Mabpox account and find it on https://www.mapbox.com/studio/
 
     mymap = L.map('map').setView([55.857161,-4.249356], 13);
