@@ -40,6 +40,13 @@ function uploadXML() {
         if (typeof (FileReader) != "undefined") {
             var reader = new FileReader();
             reader.onload = function (e) {
+                try{
+                    // Check if the xml format is valid
+                    $.parseXML(e.target.result);
+                }catch(error){
+                    alert("Please upload a valid GPX file!");
+                    return;
+                }
                 gpxFiles.push(e.target.result);
                 displayGPX(gpxFiles.length - 1);
                 addToSidebar(gpxFiles.length - 1, name);
@@ -49,8 +56,9 @@ function uploadXML() {
         } else {
             alert("Sorry! Your browser does not support HTML5!");
         }
+
     } else {
-        alert("Please upload a valid XML file!");
+        alert("Please upload a valid GPX file!");
     }
 }
 
