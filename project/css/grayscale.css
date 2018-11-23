@@ -135,13 +135,13 @@
 
 #tour-info{
     width: 300px;
-    height: 50px;
-    background-color: black;
-    margin: 0 auto;
-    margin-top: 20px;
-    color: white;
-    font-size: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
     text-align: center;
+    background: rgb(255,255,255);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
 }
 #tour-info-span{
     color: orange;
@@ -215,7 +215,7 @@
 }
 
 .tours-section {
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 
 .tours-section .featured-text {
