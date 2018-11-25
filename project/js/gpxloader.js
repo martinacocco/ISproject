@@ -51,8 +51,14 @@ function uploadXML() {
                 try{
                     // Check if the xml format is valid
                     $.parseXML(e.target.result);
+                    if(gpxFiles.includes(e.target.result)){
+                        $("#modalMessage").text("You have already uploaded this GPX file. Please, select another one.");
+                        $("#exampleModal").modal();
+                        return;
+                    }
                 }catch(error){
-                    alert("Please upload a valid GPX file!");
+                    $("#modalMessage").text("Please upload a valid GPX file!");
+                    $("#exampleModal").modal();
                     return;
                 }
                 gpxFiles.push(e.target.result);
@@ -62,11 +68,13 @@ function uploadXML() {
             reader.readAsText($("#xmlFile")[0].files[0]);
 
         } else {
-            alert("Sorry! Your browser does not support HTML5!");
+            $("#modalMessage").text("Sorry! Your browser does not support HTML5!");
+            $("#exampleModal").modal();
         }
 
     } else {
-        alert("Please upload a valid GPX file!");
+        $("#modalMessage").text("Please upload a valid GPX file!");
+        $("#exampleModal").modal();
     }
 }
 
@@ -95,9 +103,14 @@ $(function() {
         }
     });
 
-    $('#xmlForm').submit(function(event) {
-        event.preventDefault();
-        uploadXML();
+    $('#xmlSubmitButton').click(function() {
+        $("#xmlFile").click();
     });
+
+    $("#xmlFile").change(function(){
+        uploadXML();
+        $("#xmlFile").val("")
+    });
+
 
 });

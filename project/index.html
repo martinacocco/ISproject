@@ -28,6 +28,24 @@
 
 <body id="page-top">
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="modalMessage" class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
@@ -81,7 +99,7 @@
     <section id="tours" class="tours-section bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Our Tours</h2>
-            <h6 class="text-center mb-4">Click on the markers for more information</h4>
+            <h6 class="text-center mb-4">Click on the markers for more information</h6>
 
             <!-- Featured Tours Row -->
             <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -124,12 +142,11 @@
                         </ul>
                         <form id="xmlForm" name="xmlForm">
                             <div class="input-group">
-                                <div class="custom-file signup-section">
+                                <div class="custom-file signup-section" style="display:none">
                                     <input id="xmlFile" type="file" name="xmlFile" class="custom-file-input">
-                                    <label class="custom-file-label form-inline" for="xmlFile">Choose file</label>
                                 </div>
-                                <div class="input-group-append">
-                                    <button class="btn input-btn btn-primary" type="submit">Upload</button>
+                                <div class="input-group-append pt-3">
+                                    <div id="xmlSubmitButton" class="btn input-btn btn-primary">Upload</div>
                                 </div>
                             </div>
                         </form>
