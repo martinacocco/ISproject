@@ -143,10 +143,16 @@
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 3px;
 }
-#tour-info-span{
-    color: orange;
+.tour-info-span{
+    color: #F38241;
 }
-
+.upload_button{
+    width: 100%;
+    font-size: 1.5em;
+}
+.wordsHighlight{
+    color: #F38241;
+}
 @media (min-width: 768px) {
     .masthead h1 {
         font-size: 4rem;
@@ -229,7 +235,9 @@
 @media (min-width: 992px) {
     .tours-section .featured-text {
         padding: 0 0 0 2rem;
-        border-left: 0.5rem solid #F38241;
+    }
+    #map{
+        border-right: 0.5rem solid #F38241;
     }
 }
 
@@ -259,6 +267,7 @@
 .list-group-item:hover {
     color: #F38241;
     cursor: pointer;
+    background-color: rgba(245, 245, 245,1);
 }
 
 .tours-desc:hover {

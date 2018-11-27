@@ -24,7 +24,11 @@ function displayGPX(i) {
         async: true
     }).on('loaded', function(e) {
         mymap.fitBounds(e.target.getBounds());
-        $("#tour-info-span").text(Math.trunc(this.get_distance() / 1000));
+        $("#tour-info-distance").text((this.get_distance() / 1000 ).toFixed(1));
+        var tourSeconds = this.get_distance() / 1.4;
+        var tourHours = Math.floor(tourSeconds / 3600);
+        var tourMinutes = Math.floor(tourSeconds % 3600 / 60);
+        $("#tour-info-time").text(tourHours.toString() + "h " + tourMinutes.toString() + "m");
     }).addTo(mymap);
 }
 
