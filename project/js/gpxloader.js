@@ -17,6 +17,11 @@ function initMap() {
 
 }
 
+/*
+ * Get a premade file from the defined list above by taking in an index
+ * After retrieving the file, use the GPX library to parse it and display it on the map
+ */
+
 function displayGPX(i) {
     clearMap();
     var url = gpxFiles[i];
@@ -33,6 +38,7 @@ function displayGPX(i) {
 
 }
 
+//Gets rid of every tracks and markers
 function clearMap() {
     mymap.eachLayer(function(layer) {
         if (layer instanceof L.Marker) {
