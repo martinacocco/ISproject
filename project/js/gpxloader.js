@@ -30,6 +30,7 @@ function displayGPX(i) {
         var tourMinutes = Math.floor(tourSeconds % 3600 / 60);
         $("#tour-info-time").text(tourHours.toString() + "h " + tourMinutes.toString() + "m");
     }).addTo(mymap);
+
 }
 
 function clearMap() {
