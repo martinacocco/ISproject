@@ -49,7 +49,7 @@ function checkForMissingTags(target){
 
     response = []
     if(numberWayPoints == 0 && numberTrackPoints == 0){
-        response.push("The map does not have markers nor pointer. Please Upload a valid tour.");
+        response.push("The map does not have markers nor pointers. Please Upload a valid tour.");
         response.push(false);
     }
     else if(numberWayPoints == 0){
@@ -65,7 +65,7 @@ function checkForMissingTags(target){
 
 function displayModal(text){
     $("#modalMessage").text(text);
-    $("#exampleModal").modal();
+    $("#errorModal").modal();
 }
 
 function uploadXML() {
@@ -85,7 +85,7 @@ function uploadXML() {
                         return;
                     }
                 }catch(error){
-                    displayModal("Please upload a valid GPX file!");
+                    displayModal("Please upload a valid GPX file.");
                     return;
                 }
 
@@ -105,11 +105,11 @@ function uploadXML() {
             reader.readAsText($("#xmlFile")[0].files[0]);
 
         } else {
-            displayModal("Sorry! Your browser does not support HTML5!");
+            displayModal("Sorry! Your browser does not support HTML5.");
         }
 
     } else {
-        displayModal("Please upload a valid GPX file!");
+        displayModal("Please upload a valid GPX file.");
     }
 }
 

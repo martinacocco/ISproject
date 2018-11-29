@@ -9,6 +9,79 @@
     height: auto;
 }
 
+.modal-confirm {
+    color: #434e65;
+    width: 525px;
+}
+.modal-confirm .modal-content {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-confirm .modal-header {
+    background: #eeb711;
+    border-bottom: none;
+    position: relative;
+    text-align: center;
+    margin: -20px -20px 0;
+    border-radius: 5px 5px 0 0;
+    padding: 35px;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.modal-confirm .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    text-shadow: none;
+    opacity: 0.5;
+}
+.modal-confirm .close:hover {
+    opacity: 0.8;
+}
+.modal-confirm .icon-box {
+    color: #fff;
+    display: inline-block;
+    z-index: 9;
+    text-align: center;
+}
+.modal-confirm .icon-box i {
+    font-size: 100px;
+}
+.modal-confirm.modal-dialog {
+    margin-top: 80px;
+}
+.modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #F38241;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 6px 20px;
+    min-width: 150px;
+    border: none;
+}
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+    background: #D57239;
+    outline: none;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
 #mainNav {
     min-height: 56px;
     background-color: #fff;
@@ -54,20 +127,21 @@
 
     #mainNav .navbar-brand {
         padding: .5rem 0;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: rgba(255, 255, 255, 0.7);
     }
 
     #mainNav .nav-link {
         -webkit-transition: none;
         transition: none;
-        padding: 2rem 1.5rem;
-        font-size: 1.2rem;
-        color: rgba(255, 255, 255, 0.6);
+        padding: 1.5rem 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.7);
     }
 
     #mainNav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.85);
+        color: rgba(255, 255, 255, 0.9);
     }
 
     #mainNav .nav-link:active {
@@ -110,7 +184,7 @@
     min-height: 35rem;
     padding: 15rem 0;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.5)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.6) 0%, rgba(22, 22, 22, 0.8) 75%, #161616 100%), url("../img/bg-masthead.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
