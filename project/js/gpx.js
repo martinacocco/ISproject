@@ -405,9 +405,18 @@ L.GPX = L.FeatureGroup.extend({
           title: name,
           icon: symIcon
         });
-        marker.bindPopup("<b>" + name + "</b>" + "</br><b>Opening Time: " +open_time + "</b> </br> <b> Closing Time: "+close_time ).openPopup();
+        if (open_time == "" || close_time == ""){
+          marker.bindPopup("<b>" + name + "</b>").openPopup();
+        }else{
+          marker.bindPopup("<b>" + name + "</b>" + "</br><b>Opening Time: " +open_time + "</b> </br> <b> Closing Time: "+close_time ).openPopup();
+        }
         this.fire('addpoint', { point: marker, point_type: 'waypoint', element: el[i] });
         layers.push(marker);
+        if (i==0){
+          marker.on('add', function(e){
+            this.openPopup();
+          });
+        }
       }
     }
 

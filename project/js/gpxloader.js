@@ -17,6 +17,11 @@ function initMap() {
 
 }
 
+/*
+ * Get a premade file from the defined list above by taking in an index
+ * After retrieving the file, use the GPX library to parse it and display it on the map
+ */
+
 function displayGPX(i) {
     clearMap();
     var url = gpxFiles[i];
@@ -30,8 +35,10 @@ function displayGPX(i) {
         var tourMinutes = Math.floor(tourSeconds % 3600 / 60);
         $("#tour-info-time").text(tourHours.toString() + "h " + tourMinutes.toString() + "m");
     }).addTo(mymap);
+
 }
 
+//Gets rid of every tracks and markers
 function clearMap() {
     mymap.eachLayer(function(layer) {
         if (layer instanceof L.Marker) {
@@ -43,6 +50,10 @@ function clearMap() {
     });
 }
 
+/*
+The function checks if the gpx files containes waypoints and trackpoints.
+If these are missing it just returns appropriate error messages.
+*/
 function checkForMissingTags(target){
     numberWayPoints = $(target).find('wpt').length;
     numberTrackPoints = $(target).find('trkpt').length;
@@ -62,12 +73,13 @@ function checkForMissingTags(target){
 
 }
 
-
+// The function is used to display the error modal on the webpage.
 function displayModal(text){
     $("#modalMessage").text(text);
     $("#errorModal").modal();
 }
 
+// The function is used upload and validate an .gpx file.
 function uploadXML() {
     var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.gpx)$/;
     //Checks whether the file is a valid xml file
@@ -80,6 +92,7 @@ function uploadXML() {
                 try{
                     // Check if the xml format is valid
                     xmlDoc = $.parseXML(e.target.result);
+                    // Check if the .gpx file has already been submitted.
                     if(gpxFiles.includes(e.target.result)){
                         displayModal("You have already uploaded this GPX file. Please, select another one.");
                         return;
@@ -89,6 +102,8 @@ function uploadXML() {
                     return;
                 }
 
+                // Check if the .gpx files containes all the necessary information
+                // and process the response.
                 var response = checkForMissingTags(xmlDoc);
                 console.log(response);
                 if(response.length == 2){
@@ -98,6 +113,8 @@ function uploadXML() {
                     displayModal(response[0]);
                 }
 
+                // If everything has been processed successfully just display
+                // the gpx file and add it to the sidebar.
                 gpxFiles.push(e.target.result);
                 displayGPX(gpxFiles.length - 1);
                 addToSidebar(gpxFiles.length - 1, name);
@@ -113,6 +130,7 @@ function uploadXML() {
     }
 }
 
+// The function is used to add new tours to the sidebar.
 function addToSidebar(index, name) {
     $("#user-tours").append("<li id=tour-" + index + " class='list-group-item tours-list'>" + name + "</li>");
     $(".tours-list").click(function() {
@@ -125,6 +143,7 @@ function addToSidebar(index, name) {
 $(function() {
     initMap();
 
+    // Handle the click event. When a tour is clicked visualise it. 
     $(".tours-list").click(function() {
         var id = $(this).attr("id");
         var index = parseInt(id.replace("tour-", ""), 10);
