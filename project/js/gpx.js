@@ -64,7 +64,8 @@ var _DEFAULT_MARKER_OPTS = {
   clickable: false
 };
 var _DEFAULT_POLYLINE_OPTS = {
-  color: 'blue'
+  color: '#34659F',
+  weight: 5,
 };
 var _DEFAULT_GPX_OPTS = {
   parseElements: ['track', 'route', 'waypoint']
