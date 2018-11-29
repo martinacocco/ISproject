@@ -43,6 +43,31 @@ function clearMap() {
     });
 }
 
+function checkForMissingTags(target){
+    numberWayPoints = $(target).find('wpt').length;
+    numberTrackPoints = $(target).find('trkpt').length;
+
+    response = []
+    if(numberWayPoints == 0 && numberTrackPoints == 0){
+        response.push("The map does not have markers nor pointer. Please Upload a valid tour.");
+        response.push(false);
+    }
+    else if(numberWayPoints == 0){
+        response.push("The map does not have markers. Only the path will be displayed.");
+    }else if(numberTrackPoints == 0){
+        response.push("The map does not have a path. Only markers will be displayed.");
+    }
+
+    return response;
+
+}
+
+
+function displayModal(text){
+    $("#modalMessage").text(text);
+    $("#exampleModal").modal();
+}
+
 function uploadXML() {
     var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.gpx)$/;
     //Checks whether the file is a valid xml file
@@ -54,17 +79,25 @@ function uploadXML() {
             reader.onload = function (e) {
                 try{
                     // Check if the xml format is valid
-                    $.parseXML(e.target.result);
+                    xmlDoc = $.parseXML(e.target.result);
                     if(gpxFiles.includes(e.target.result)){
-                        $("#modalMessage").text("You have already uploaded this GPX file. Please, select another one.");
-                        $("#exampleModal").modal();
+                        displayModal("You have already uploaded this GPX file. Please, select another one.");
                         return;
                     }
                 }catch(error){
-                    $("#modalMessage").text("Please upload a valid GPX file!");
-                    $("#exampleModal").modal();
+                    displayModal("Please upload a valid GPX file!");
                     return;
                 }
+
+                var response = checkForMissingTags(xmlDoc);
+                console.log(response);
+                if(response.length == 2){
+                    displayModal(response[0]);
+                    return;
+                }else if(response.length == 1){
+                    displayModal(response[0]);
+                }
+
                 gpxFiles.push(e.target.result);
                 displayGPX(gpxFiles.length - 1);
                 addToSidebar(gpxFiles.length - 1, name);
@@ -72,13 +105,11 @@ function uploadXML() {
             reader.readAsText($("#xmlFile")[0].files[0]);
 
         } else {
-            $("#modalMessage").text("Sorry! Your browser does not support HTML5!");
-            $("#exampleModal").modal();
+            displayModal("Sorry! Your browser does not support HTML5!");
         }
 
     } else {
-        $("#modalMessage").text("Please upload a valid GPX file!");
-        $("#exampleModal").modal();
+        displayModal("Please upload a valid GPX file!");
     }
 }
 
