@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="55.8684164" lon="-4.2910905">
+  <ele>27.4</ele>
+  <name>Kelvingrove Art Gallery and Museum, Argyle Street, Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8726549" lon="-4.2851565">
+  <ele>33.8</ele>
+  <name>Glasgow University Union, University Avenue, Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8721945" lon="-4.2881884">
+  <ele>42.8</ele>
+  <name>University of Glasgow, University Avenue, Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8738392" lon="-4.2911884">
+  <ele>43.0</ele>
+  <name>Queen Margaret Union, Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<wpt lat="55.8796856" lon="-4.2909684">
+  <ele>37.5</ele>
+  <name>Botanic Gardens, Great Western Road, Glasgow</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+</gpx>

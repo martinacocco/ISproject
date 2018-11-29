@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" 
+creator="ViewRanger/6.0.6 http://www.viewranger.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:viewranger="http://www.viewranger.com/xmlschemas/GpxExtensions/v2"
+xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/gpx_style/0/2
+http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd http://www.viewranger.com/xmlschemas/GpxExtensions/v2 http://www.viewranger.com/xmlschemas/GpxExtensions/v2/GpxExtensionsV2.xsd">
+<rte>
+<name><![CDATA[Clyde Walkway from Glasgow Queen Street (cycle)]]></name>
+<type><![CDATA[Route]]></type>
+<rtept lat="55.862255" lon="-4.251382">
+<name><![CDATA[Buchanan Street exit]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/4779aa8818b4abba7e223d01f82ee9b9.jpg</im><br> From the ticket gates, turn right and take the exit signed for Buchanan Street.]]></cmt>
+<sym><![CDATA[vr_flaggreen]]></sym>
+</rtept>
+<rtept lat="55.862152" lon="-4.251800">
+<name><![CDATA[2]]></name>
+</rtept>
+<rtept lat="55.862160" lon="-4.252208">
+<name><![CDATA[Dundas Street]]></name>
+<cmt><![CDATA[Take a left and walk your bike down the pavement of Dundas Street.]]></cmt>
+<sym><![CDATA[vr_leftturnblack]]></sym>
+</rtept>
+<rtept lat="55.861931" lon="-4.252283">
+<name><![CDATA[George Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/d458343ad7de56d9f3afe9909b6a5230.jpg</im><br> Still walking on the pavement, take a right at George Street and walk to the signal crossing.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.862041" lon="-4.253345">
+<name><![CDATA[Buchanan Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/7ca6fd74101ca9ba1ec1d33c641d1fb0.jpg</im><br> Turn left and cross at the signal.]]></cmt>
+<sym><![CDATA[vr_leftturnblack]]></sym>
+</rtept>
+<rtept lat="55.861912" lon="-4.253377">
+<name><![CDATA[Robertson Street]]></name>
+</rtept>
+<rtept lat="55.861942" lon="-4.253613">
+<name><![CDATA[Buchanan Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/d0eeefab86af59074410a6ebd3064014.jpg</im><br> You can cycle on the vehicle-restricted Buchanan Street, but note that there are often large numbers of pedestrians who have priority. Please be courteous.<br><br>Head down Buchanan Street, crossing at the junctions, until you reach Argyle Street at the bottom.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.858139" lon="-4.255081">
+<name><![CDATA[Argyll Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/fde8d321b8383fc9d252d35b5f1e69dc.jpg</im><br> Cross over Argyll Street.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.857899" lon="-4.255150">
+<name><![CDATA[Subway entrance]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/8626c6e64b00b9cc528c33eace6ffcde.jpg</im><br> Cycle to the right of the Subway entrance and continue down until you reach Howard Street.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.857830" lon="-4.255445">
+<name><![CDATA[10]]></name>
+</rtept>
+<rtept lat="55.857132" lon="-4.255676">
+<name><![CDATA[Robertson Lane]]></name>
+</rtept>
+<rtept lat="55.856865" lon="-4.255507">
+<name><![CDATA[Dixon Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/227b55d01507a7deef1c8375fbc820fa.jpg</im><br> Cross Howard street and cycle down Dixon Street.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856110" lon="-4.255998">
+<name><![CDATA[Cross Clyde Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/2fef318e103757d3760bd910f1d85762.jpg</im><br> There is a signal crossing to cross the busy Clyde Street.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.855980" lon="-4.256153">
+<name><![CDATA[14]]></name>
+</rtept>
+<rtept lat="55.855846" lon="-4.256288">
+<name><![CDATA[Ramp to cycle path]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/d6e19cdcbf9e7e2a55066ac05478d1cb.jpg</im><br> Go down the ramp to the cycle path.]]></cmt>
+<sym><![CDATA[vr_leftturnblack]]></sym>
+</rtept>
+<rtept lat="55.855736" lon="-4.256025">
+<name><![CDATA[U-turn/right on cycle path]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/f07f52c08a5585793e840579cff7406a.jpg</im><br> At the bottom of the ramp, make a u-turn to go west along the cycle path.]]></cmt>
+<sym><![CDATA[vr_uturnblack]]></sym>
+</rtept>
+<rtept lat="55.856064" lon="-4.257253">
+<name><![CDATA[Glasgow Bridge]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/fd42f55a90953915bdfbc56e96836171.jpg</im><br> Continue on under Glasgow Bridge.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856022" lon="-4.257312">
+<name><![CDATA[Short un-named link]]></name>
+</rtept>
+<rtept lat="55.856075" lon="-4.257559">
+<name><![CDATA[Short un-named link]]></name>
+</rtept>
+<rtept lat="55.856133" lon="-4.258106">
+<name><![CDATA[Short un-named link]]></name>
+</rtept>
+<rtept lat="55.856163" lon="-4.258154">
+<name><![CDATA[Short un-named link]]></name>
+</rtept>
+<rtept lat="55.856300" lon="-4.259437">
+<name><![CDATA[Approach to George V Bridge crossing]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/adf9ca2c6699c25b04ccaf684d1f6ce1.jpg</im><br> After passing under the rail viaduct, the cycle path heads up to the pavement at the crossing over George V Bridge.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.856426" lon="-4.259648">
+<name><![CDATA[George V Bridge]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/d2b2454fe35c6987d4a24e867d6ea9b8.jpg</im><br> Cross over at the signal crossing.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856441" lon="-4.259917">
+<name><![CDATA[Pick up our other cycle routes from here]]></name>
+<cmt><![CDATA[Our cycle routes to the Science Centre and to the Riverside Museum start from here.]]></cmt>
+</rtept>
+</rte>
+<rte>
+<name><![CDATA[Clyde Walkway from Glasgow Central station (cycle)]]></name>
+<type><![CDATA[Route]]></type>
+<rtept lat="55.859928" lon="-4.257857">
+<name><![CDATA[Exit the station]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/5f65d040e226bc11cdcec401faa2cf28.jpg</im><br> Take the main station exit (straight ahead from the ticket gates) to Gordon Street.]]></cmt>
+<sym><![CDATA[vr_flaggreen]]></sym>
+</rtept>
+<rtept lat="55.860550" lon="-4.257717">
+<name><![CDATA[Gordon Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/3011522fa19fd6c4757febc3b86c3579.jpg</im><br> Walk your bike along the pavement. Take a right on Gordon Street.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.860523" lon="-4.257084">
+<name><![CDATA[Union Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/db24d788a55fb9946a23cf5995a26709.jpg</im><br> Still walking your bike, take a right down Union Street, walking on the right side of the road.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.858379" lon="-4.256923">
+<name><![CDATA[Jamaica Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/e3cdf9ac5d74c51e1669e2983137b5eb.jpg</im><br> Still walking your bike, cross Argyll Street and continue down Jamaica Street on the other side. Stay on the right side of Jamaica Street.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856533" lon="-4.257696">
+<name><![CDATA[Cross Broomielaw Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/92f6704c265ccbd5187fde56bf2128ff.jpg</im><br> Cross all the way over the busy Broomielaw Street.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856281" lon="-4.257846">
+<name><![CDATA[Cycle path along Broomielaw Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/4640e8915851cf52f5771f544a1c2441.jpg</im><br> Turn right on the pavement along Broomielaw Street. You can start cycling! This joins the cycle path a few metres along.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.856415" lon="-4.259369">
+<name><![CDATA[National Cycle Route 75 & 756]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/b137c357d26ff50e1ea625e1e183542b.jpg</im><br> You are now on the cycle route.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856426" lon="-4.259648">
+<name><![CDATA[George V Bridge]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/7e482927662df79cec7d0030223a71aa.jpg</im><br> Cross over at the signal crossing.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.856441" lon="-4.259917">
+<name><![CDATA[Pick up our other cycle routes from here]]></name>
+<cmt><![CDATA[Our cycle routes to the Science Centre and to the Riverside Museum start from here.]]></cmt>
+</rtept>
+</rte>
+<rte>
+<name><![CDATA[Riverside Museum from Partick Rail Station (cycle)]]></name>
+<type><![CDATA[Route]]></type>
+<rtept lat="55.869877" lon="-4.309043">
+<name><![CDATA[Exit the station]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/4e3363ff6ed2fcc6946ec379395d52a1.jpg</im><br> From the railway platforms, walk past the subway entrance to the exit past them, signed for the Riverside Museum & Tall Ship.]]></cmt>
+<sym><![CDATA[vr_flaggreen]]></sym>
+</rtept>
+<rtept lat="55.869686" lon="-4.308555">
+<name><![CDATA[Cycle to Beith Street]]></name>
+<cmt><![CDATA[Head straight on after exiting the station to the Beith Street crossing under the rail lines.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.869541" lon="-4.308299">
+<name><![CDATA[3]]></name>
+</rtept>
+<rtept lat="55.869324" lon="-4.308000">
+<name><![CDATA[Beith Street, B808]]></name>
+</rtept>
+<rtept lat="55.869308" lon="-4.308128">
+<name><![CDATA[Beith Street]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/d8fb35d511e6783526b7f0dca9deb983.jpg</im><br> Cross Beith Street at the signal crossing.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.869221" lon="-4.308072">
+<name><![CDATA[National Cycle Route 7]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/7c41997a3eae88203efed53bb7b9420b.jpg</im><br> Head straight on to the National Cycle Route 7 cycle path, signed for the SECC.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.869072" lon="-4.307965">
+<name><![CDATA[7]]></name>
+</rtept>
+<rtept lat="55.868931" lon="-4.307801">
+<name><![CDATA[8]]></name>
+</rtept>
+<rtept lat="55.868725" lon="-4.307426">
+<name><![CDATA[Merge onto cycle path]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/fd2b8e567e05f63ace4c055cb8a25b21.jpg</im><br> Merge onto the cycle path beside the Clydeside Expressway.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.868690" lon="-4.307222">
+<name><![CDATA[Alongside Clydeside Expressway, A814]]></name>
+</rtept>
+<rtept lat="55.868313" lon="-4.305955">
+<name><![CDATA[Clyde Walkway]]></name>
+</rtept>
+<rtept lat="55.867889" lon="-4.305169">
+<name><![CDATA[Alongside Clydeside Expressway, A814]]></name>
+</rtept>
+<rtept lat="55.867474" lon="-4.304403">
+<name><![CDATA[Approach to ramp for Riverside Museum]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/d10d6f3de7fcbdbc8fafa10a6b524900.jpg</im><br> After the bridge over the River Kelvin you will loop around for the access path to the Riverside Museum.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.867210" lon="-4.303936">
+<name><![CDATA[Clyde Walkway]]></name>
+</rtept>
+<rtept lat="55.867184" lon="-4.303841">
+<name><![CDATA[Left to access path for Riverside Museum]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/2acd61377f2d8094b7a7b9606c59bbf1.jpg</im><br> Take the left which loops around and under the bridge you just came over.]]></cmt>
+<sym><![CDATA[vr_uturnblack]]></sym>
+</rtept>
+<rtept lat="55.867329" lon="-4.303933">
+<name><![CDATA[16]]></name>
+</rtept>
+<rtept lat="55.867397" lon="-4.304046">
+<name><![CDATA[Alongside Castlebank Street, B808]]></name>
+</rtept>
+<rtept lat="55.867397" lon="-4.304175">
+<name><![CDATA[18]]></name>
+</rtept>
+<rtept lat="55.867344" lon="-4.304435">
+<name><![CDATA[Alongside Castlebank Street, B808]]></name>
+</rtept>
+<rtept lat="55.867081" lon="-4.304894">
+<name><![CDATA[20]]></name>
+</rtept>
+<rtept lat="55.866920" lon="-4.304934">
+<name><![CDATA[Alongside Castlebank Street, B808]]></name>
+</rtept>
+<rtept lat="55.866734" lon="-4.304881">
+<name><![CDATA[Alongside Castlebank Street, B808]]></name>
+</rtept>
+<rtept lat="55.866623" lon="-4.304985">
+<name><![CDATA[23]]></name>
+</rtept>
+<rtept lat="55.866474" lon="-4.305189">
+<name><![CDATA[Alongside Castlebank Street, B808]]></name>
+</rtept>
+<rtept lat="55.866135" lon="-4.305183">
+<name><![CDATA[25]]></name>
+</rtept>
+<rtept lat="55.866035" lon="-4.305106">
+<name><![CDATA[Pointhouse Place]]></name>
+</rtept>
+<rtept lat="55.865959" lon="-4.305183">
+<name><![CDATA[27]]></name>
+</rtept>
+<rtept lat="55.865856" lon="-4.305167">
+<name><![CDATA[Alongside Pointhouse Road]]></name>
+</rtept>
+<rtept lat="55.865829" lon="-4.305296">
+<name><![CDATA[29]]></name>
+</rtept>
+<rtept lat="55.865757" lon="-4.305449">
+<name><![CDATA[Plaza in front of Riverside Museum]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/9b125bbe73648ee75fdb1630d6110fb7.jpg</im><br> Cross the plaza and head to the right of the museum.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.865772" lon="-4.306557">
+<name><![CDATA[Cycle parking]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/e0c9150db6594fbc0f527e0c5f5f2bb9.jpg</im><br> Cycle racks are provided on the right side of the museum entrance.]]></cmt>
+<sym><![CDATA[vr_flagred]]></sym>
+</rtept>
+</rte>
+<rte>
+<name><![CDATA[Riverside Museum from Clyde Walkway (cycle)]]></name>
+<cmt><![CDATA[A scenic and enjoyable cycle along the Clyde Walkway and National Cycle Route 75/756 off-road paths beside the River Clyde.]]></cmt>
+<type><![CDATA[Route]]></type>
+<rtept lat="55.856441" lon="-4.259917">
+<name><![CDATA[Start of route]]></name>
+<cmt><![CDATA[This is the point our routes from Glasgow Central and Queen Street stations to the River Clyde end at. To get from the stations to to here, follow those routes.]]></cmt>
+</rtept>
+<rtept lat="55.856514" lon="-4.260045">
+<name><![CDATA[2]]></name>
+</rtept>
+<rtept lat="55.856503" lon="-4.260195">
+<name><![CDATA[Ramp down to the river]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/adc09ec268d829d922179ed4925cb717.jpg</im><br> Soon after having crossed the road at George V Bridge, there is a ramp behind you that leads down to the river. Make a u-turn to enter this ramp.]]></cmt>
+<sym><![CDATA[vr_uturnblack]]></sym>
+</rtept>
+<rtept lat="55.856415" lon="-4.260002">
+<name><![CDATA[NCN 75]]></name>
+</rtept>
+<rtept lat="55.856339" lon="-4.260035">
+<name><![CDATA[5]]></name>
+</rtept>
+<rtept lat="55.856285" lon="-4.260153">
+<name><![CDATA[National Cycle Route 75 & 756]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/3cbf3fc0d519914905258b708b2ac989.jpg</im><br> Turn right and cycle along the path beside the river. You will be on the path for quite a while.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.856335" lon="-4.261129">
+<name><![CDATA[7]]></name>
+</rtept>
+<rtept lat="55.856499" lon="-4.263124">
+<name><![CDATA[8]]></name>
+</rtept>
+<rtept lat="55.856560" lon="-4.263233">
+<name><![CDATA[NCN 75]]></name>
+</rtept>
+<rtept lat="55.856644" lon="-4.264305">
+<name><![CDATA[10]]></name>
+</rtept>
+<rtept lat="55.856487" lon="-4.268242">
+<name><![CDATA[11]]></name>
+</rtept>
+<rtept lat="55.856441" lon="-4.270216">
+<name><![CDATA[12]]></name>
+</rtept>
+<rtept lat="55.856506" lon="-4.272394">
+<name><![CDATA[NCN National Route 75]]></name>
+</rtept>
+<rtept lat="55.856579" lon="-4.272941">
+<name><![CDATA[14]]></name>
+</rtept>
+<rtept lat="55.856598" lon="-4.273993">
+<name><![CDATA[15]]></name>
+</rtept>
+<rtept lat="55.856777" lon="-4.275988">
+<name><![CDATA[16]]></name>
+</rtept>
+<rtept lat="55.857056" lon="-4.278209">
+<name><![CDATA[17]]></name>
+</rtept>
+<rtept lat="55.857220" lon="-4.279089">
+<name><![CDATA[Join pavement]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/e5265ff7b85ab7cf673ade591283783b.jpg</im><br> At this point, the cycle path heads up to the wide, smooth pavement beside Lancefield Quay road.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.857353" lon="-4.279159">
+<name><![CDATA[Join pavement]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/234ed28976856cbc8cb0e5addbdfc9c4.jpg</im><br> This pavement allows cycles as well as pedestrians.]]></cmt>
+<sym><![CDATA[vr_leftturnblack]]></sym>
+</rtept>
+<rtept lat="55.857716" lon="-4.281707">
+<name><![CDATA[Cross the road]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/f0757ddf171c1a3739ecc90ad0756b1e.jpg</im><br> Crossh Clyde Arc road at the signal crossing.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.857861" lon="-4.282168">
+<name><![CDATA[Clyde Walkway]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/b542100e2c99f00e1ad744d6b8106043.jpg</im><br> Cycle on the pavement. It is a bit narrow in this section, but still designated for bicycles as well as pedestrians.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.858246" lon="-4.283466">
+<name><![CDATA[22]]></name>
+</rtept>
+<rtept lat="55.858421" lon="-4.283853">
+<name><![CDATA[23]]></name>
+</rtept>
+<rtept lat="55.858612" lon="-4.284067">
+<name><![CDATA[24]]></name>
+</rtept>
+<rtept lat="55.858715" lon="-4.284475">
+<name><![CDATA[25]]></name>
+</rtept>
+<rtept lat="55.858711" lon="-4.285371">
+<name><![CDATA[Clyde Walkway]]></name>
+<cmt><![CDATA[The cycle path heads back down to the river. You will now be on this path until the bridge that crosses to the Science Centre.]]></cmt>
+<sym><![CDATA[vr_leftturnblack]]></sym>
+</rtept>
+<rtept lat="55.858570" lon="-4.285977">
+<name><![CDATA[Clyde Walkway]]></name>
+</rtept>
+<rtept lat="55.860435" lon="-4.294313">
+<name><![CDATA[28]]></name>
+</rtept>
+<rtept lat="55.860729" lon="-4.295375">
+<name><![CDATA[Right turn]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/398f3693a640fa2472f77b359d6da1cb.jpg</im><br> The path heads away from the river here.]]></cmt>
+<sym><![CDATA[vr_rightturnblack]]></sym>
+</rtept>
+<rtept lat="55.860878" lon="-4.295311">
+<name><![CDATA[Join pavement]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/863369c38b53029e10641adc74468c4d.jpg</im><br> The pavement is designated for cycles as well as pedestrians.]]></cmt>
+<sym><![CDATA[vr_leftturnblack]]></sym>
+</rtept>
+<rtept lat="55.861092" lon="-4.295644">
+<name><![CDATA[31]]></name>
+</rtept>
+<rtept lat="55.861286" lon="-4.295815">
+<name><![CDATA[32]]></name>
+</rtept>
+<rtept lat="55.861462" lon="-4.295890">
+<name><![CDATA[33]]></name>
+</rtept>
+<rtept lat="55.861656" lon="-4.295880">
+<name><![CDATA[34]]></name>
+</rtept>
+<rtept lat="55.862106" lon="-4.295692">
+<name><![CDATA[35]]></name>
+</rtept>
+<rtept lat="55.862175" lon="-4.295713">
+<name><![CDATA[36]]></name>
+</rtept>
+<rtept lat="55.862259" lon="-4.295944">
+<name><![CDATA[Stay on pavement]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/b7a8bc7de883a43b9f8767a80e119e10.jpg</im><br> Stay on the pavement, crossing the ambulance access drive, to go past the roundabout.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.862392" lon="-4.296191">
+<name><![CDATA[38]]></name>
+</rtept>
+<rtept lat="55.862377" lon="-4.296400">
+<name><![CDATA[39]]></name>
+</rtept>
+<rtept lat="55.862404" lon="-4.296502">
+<name><![CDATA[40]]></name>
+</rtept>
+<rtept lat="55.862492" lon="-4.296582">
+<name><![CDATA[41]]></name>
+</rtept>
+<rtept lat="55.862579" lon="-4.296545">
+<name><![CDATA[42]]></name>
+</rtept>
+<rtept lat="55.862659" lon="-4.296759">
+<name><![CDATA[43]]></name>
+</rtept>
+<rtept lat="55.862705" lon="-4.296824">
+<name><![CDATA[44]]></name>
+</rtept>
+<rtept lat="55.862724" lon="-4.297054">
+<name><![CDATA[Cycle path to Riverside Museum]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/6f1bab2a26b088bb6e532c1d148571d4.jpg</im><br> A cycle path leaves the road and heads straight to the Riverside Museum.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.862869" lon="-4.297248">
+<name><![CDATA[46]]></name>
+</rtept>
+<rtept lat="55.862991" lon="-4.297575">
+<name><![CDATA[47]]></name>
+</rtept>
+<rtept lat="55.863148" lon="-4.298186">
+<name><![CDATA[48]]></name>
+</rtept>
+<rtept lat="55.863483" lon="-4.299211">
+<name><![CDATA[49]]></name>
+</rtept>
+<rtept lat="55.864525" lon="-4.301346">
+<name><![CDATA[50]]></name>
+</rtept>
+<rtept lat="55.865204" lon="-4.302269">
+<name><![CDATA[51]]></name>
+</rtept>
+<rtept lat="55.865479" lon="-4.302531">
+<name><![CDATA[52]]></name>
+</rtept>
+<rtept lat="55.865753" lon="-4.303052">
+<name><![CDATA[53]]></name>
+</rtept>
+<rtept lat="55.866226" lon="-4.304329">
+<name><![CDATA[54]]></name>
+</rtept>
+<rtept lat="55.866234" lon="-4.304398">
+<name><![CDATA[55]]></name>
+</rtept>
+<rtept lat="55.866055" lon="-4.304806">
+<name><![CDATA[56]]></name>
+</rtept>
+<rtept lat="55.865932" lon="-4.304956">
+<name><![CDATA[57]]></name>
+</rtept>
+<rtept lat="55.865856" lon="-4.305112">
+<name><![CDATA[58]]></name>
+</rtept>
+<rtept lat="55.865837" lon="-4.305283">
+<name><![CDATA[59]]></name>
+</rtept>
+<rtept lat="55.865761" lon="-4.305455">
+<name><![CDATA[Plaza in front of Riverside Museum]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/0f17ee9b939eacf7c94a204a14b59c21.jpg</im><br> Cross the plaza and head to the right of the museum.]]></cmt>
+<sym><![CDATA[vr_redcross]]></sym>
+</rtept>
+<rtept lat="55.865829" lon="-4.306399">
+<name><![CDATA[61]]></name>
+</rtept>
+<rtept lat="55.865753" lon="-4.306555">
+<name><![CDATA[Cycle parking]]></name>
+<cmt><![CDATA[<im>http://files.viewranger.com/image/4f1922813f8d84dabab231c8586da04f.jpg</im><br> Cycle racks are provided on the right side of the museum entrance.]]></cmt>
+<sym><![CDATA[vr_flagred]]></sym>
+</rtept>
+</rte>
+</gpx>
