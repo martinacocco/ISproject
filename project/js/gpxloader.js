@@ -105,7 +105,6 @@ function uploadXML() {
                 // Check if the .gpx files containes all the necessary information
                 // and process the response.
                 var response = checkForMissingTags(xmlDoc);
-                console.log(response);
                 if(response.length == 2){
                     displayModal(response[0]);
                     return;
@@ -143,7 +142,7 @@ function addToSidebar(index, name) {
 $(function() {
     initMap();
 
-    // Handle the click event. When a tour is clicked visualise it. 
+    // Handle the click event. When a tour is clicked visualise it.
     $(".tours-list").click(function() {
         var id = $(this).attr("id");
         var index = parseInt(id.replace("tour-", ""), 10);
